@@ -1,6 +1,6 @@
 package ACME::YAPC::NA::2012;
 
-use 5.006
+use 5.006;
 use strict;
 use warnings;
 
@@ -14,7 +14,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.01';
 
 
 =head1 SYNOPSIS

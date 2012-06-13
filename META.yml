@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               ACME-YAPC-NA-2012
-version:            0.02
+version:            0.01
 abstract:           The great new ACME::YAPC::NA::2012!
 author:
     - Jacinta Richardson <jarich@cpan.org>
