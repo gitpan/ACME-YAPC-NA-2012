@@ -1,6 +1,6 @@
 package ACME::YAPC::NA::2012;
 
-use 5.006
+use 5.006;
 use strict;
 use warnings;
 
@@ -10,11 +10,11 @@ ACME::YAPC::NA::2012 - Random test module for YAPC::NA tutorial
 
 =head1 VERSION
 
-Version 0.02
+Version 0.02_02
 
 =cut
 
-our $VERSION = '0.02_01';
+our $VERSION = '0.02_02';
 
 
 =head1 SYNOPSIS

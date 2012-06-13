@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               ACME-YAPC-NA-2012
-version:            0.02_01
+version:            0.02_02
 abstract:           Random test module for YAPC::NA tutorial
 author:
     - Jacinta Richardson <jarich@cpan.org>
