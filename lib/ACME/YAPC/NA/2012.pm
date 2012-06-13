@@ -1,20 +1,20 @@
 package ACME::YAPC::NA::2012;
 
-use 5.006;
+use 5.006
 use strict;
 use warnings;
 
 =head1 NAME
 
-ACME::YAPC::NA::2012 - The great new ACME::YAPC::NA::2012!
+ACME::YAPC::NA::2012 - Random test module for YAPC::NA tutorial
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02_01';
 
 
 =head1 SYNOPSIS
