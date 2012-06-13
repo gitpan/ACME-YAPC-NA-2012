@@ -10,11 +10,11 @@ ACME::YAPC::NA::2012 - Random test module for YAPC::NA tutorial
 
 =head1 VERSION
 
-Version 0.02_02
+Version 0.02_03
 
 =cut
 
-our $VERSION = '0.02_02';
+our $VERSION = '0.02_03';
 
 
 =head1 SYNOPSIS
@@ -35,18 +35,36 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
+=head2 sum
+
+	my $total = sum( @numbers );
+
+Returns the sum of all the numbers.
 
 =cut
 
-sub function1 {
+sub sum {
+	my (@numbers) = @_;
+
+	my $total = 0;
+ 	$total += $_ for @numbers;
+	return $total;
 }
 
-=head2 function2
+=head2 product
+
+	my $product = product( @numbers );
+
+Returns the product of all the numbers;
 
 =cut
 
-sub function2 {
+sub product {
+	my (@numbers) = @_;
+
+	my $product = 0;
+ 	$product += $_ for @numbers;
+	return $product;
 }
 
 =head1 AUTHOR
